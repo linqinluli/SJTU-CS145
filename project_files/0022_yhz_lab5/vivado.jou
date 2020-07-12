@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jun 24 20:58:28 2020
+# Process ID: 24572
+# Current directory: C:/Archlabs/lab05
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28232 C:\Archlabs\lab05\lab05.xpr
+# Log file: C:/Archlabs/lab05/vivado.log
+# Journal file: C:/Archlabs/lab05\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Archlabs/lab05/lab05.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source top_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/top_tb/top/instMem}} 
+current_wave_config {Untitled 1}
+add_wave {{/top_tb/top/dataMem}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/top_tb/top/PC}} 
+relaunch_sim
+close_sim
+launch_simulation
+source top_tb.tcl
+current_wave_config {Untitled 2}
+add_wave {{/top_tb/top/IMM_SEXT}} 
+current_wave_config {Untitled 2}
+add_wave {{/top_tb/top/BRANCH_ADDR}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/top_tb/top/ALU_SRC}} 
+current_wave_config {Untitled 2}
+add_wave {{/top_tb/top/instMem/instruction}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/top_tb/top/PC}} 
+relaunch_sim
+close_sim
+launch_simulation
+source top_tb.tcl
+current_wave_config {Untitled 3}
+add_wave {{/top_tb/top/ZERO}} 
+current_wave_config {Untitled 3}
+add_wave {{/top_tb/top/ALU_SRC}} 
+current_wave_config {Untitled 3}
+add_wave {{/top_tb/top/PC}} 
+current_wave_config {Untitled 3}
+add_wave {{/top_tb/top/SEL_BRANCH_ADDR}} 
+relaunch_sim
+current_wave_config {Untitled 3}
+add_wave {{/top_tb/top/BRANCH}} 
+relaunch_sim
+current_wave_config {Untitled 3}
+add_wave {{/top_tb/top/alu/alures}} 
+relaunch_sim
+current_wave_config {Untitled 3}
+add_wave {{/top_tb/top/ALU_RESULT}} 
+relaunch_sim
+current_wave_config {Untitled 3}
+add_wave {{/top_tb/top/alu/aluctr}} 
+current_wave_config {Untitled 3}
+add_wave {{/top_tb/top/alu/input1}} 
+current_wave_config {Untitled 3}
+add_wave {{/top_tb/top/alu/input2}} 
+relaunch_sim
+close_sim
+launch_simulation
+source top_tb.tcl
+current_wave_config {Untitled 4}
+add_wave {{/top_tb/top/mainCtr/brance}} 
+current_wave_config {Untitled 4}
+add_wave {{/top_tb/top/regs/regFile}} 
+current_wave_config {Untitled 4}
+add_wave {{/top_tb/top/alu/aluctr}} 
+current_wave_config {Untitled 4}
+add_wave {{/top_tb/top/alu/input1}} 
+current_wave_config {Untitled 4}
+add_wave {{/top_tb/top/alu/input2}} 
+current_wave_config {Untitled 4}
+add_wave {{/top_tb/top/alu/alures}} 
+relaunch_sim
+current_wave_config {Untitled 4}
+add_wave {{/top_tb/top/instMem/instFile}} 
+relaunch_sim
+close_sim
+launch_simulation
+source top_tb.tcl
+current_wave_config {Untitled 5}
+add_wave {{/top_tb/top/regs/regFile}} 
+relaunch_sim
+close_sim
+launch_simulation
+source top_tb.tcl
+current_wave_config {}
+add_wave {{/top_tb/top/PC}} 
+current_wave_config {Untitled 6}
+add_wave {{/top_tb/top/regs/regFile}} 
+relaunch_sim
+current_wave_config {Untitled 6}
+add_wave {{/top_tb/top/dataMem}} 
+relaunch_sim
+close_sim
+launch_simulation
+source top_tb.tcl
+current_wave_config {Untitled 7}
+add_wave {{/top_tb/top/regs/regFile}} 
+current_wave_config {Untitled 7}
+add_wave {{/top_tb/top/PC}} 
+relaunch_sim
+close_sim
+launch_simulation
+source top_tb.tcl
+current_wave_config {Untitled 8}
+add_wave {{/top_tb/top/PC}} 
+current_wave_config {Untitled 8}
+add_wave {{/top_tb/top/regs/regFile}} 
+relaunch_sim
+current_wave_config {Untitled 8}
+add_wave {{/top_tb/top/dataMem}} 
+relaunch_sim
+current_wave_config {Untitled 8}
+add_wave {{/top_tb/top/PC}} 
+current_wave_config {Untitled 8}
+add_wave {{/top_tb/top/BRANCH}} 
+current_wave_config {Untitled 8}
+add_wave {{/top_tb/top/ZERO}} 
+relaunch_sim
+current_wave_config {Untitled 8}
+add_wave {{/top_tb/top/alu}} 
+relaunch_sim
+close_sim
